@@ -12,7 +12,11 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule): void
     {
-        // $schedule->command('inspire')->hourly();
+        // Clean up old export files (older than 7 days)
+        $schedule->command('exports:cleanup --days=7')->daily();
+
+        // Generate reports automatically
+        $schedule->command('reports:generate')->weekly()->mondays()->at('8:00');
     }
 
     /**

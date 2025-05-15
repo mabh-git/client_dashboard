@@ -1,0 +1,3 @@
+name,matricule,gender,birthdate,contractType,startDate,spst,role,poste,departement,surveillance,pcsCode
+John Doe,12345,M,1990-01-01,CDI,2020-01-15,SIR A,Manager,Team Lead,IT,Standard,PCS123
+Jane Smith,67890,F,1985-05-12,CDD,2019-06-20,SIR B,Analyst,Data Analyst,Finance,Renforcée,PCS456

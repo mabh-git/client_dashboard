@@ -1,0 +1,3 @@
+employee_matricule,type,etat,envisagee,effectuee,suivi,apte,observations
+12345,VIPP,Programmée,2025-06-15,,SIR A,true,
+67890,VIPI,Effectuée,2025-03-10,2025-03-10,SIR B,true,No issues found
